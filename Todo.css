@@ -1,0 +1,106 @@
+.completed  {
+  text-decoration: line-through;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://miro.medium.com/v2/resize:fit:8000/1*B4cpY9n3aiWgjiM_dY6Jjw.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: center;
+}
+
+/* Input Field */
+.text-input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Add Button */
+.add {
+  padding: 10px 15px;
+  border: none;
+  background: #28a745;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.add:hover {
+  background: #218838;
+}
+
+/* Task Container */
+.task-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Task */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  width: 470px;
+  padding: 10px 5px;
+  border-radius: 4px;
+  margin-top: 10px;
+  border-left: 5px solid #28a745;
+}
+
+/* Task Text */
+.task span {
+  flex: 1;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+}
+
+/* Completed Task */
+.task .completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Delete Button */
+.task button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background: #c82333;
+}
+.header {
+  color: grey;
+}
